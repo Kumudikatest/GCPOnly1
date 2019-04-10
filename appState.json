@@ -1,0 +1,77 @@
+{
+  "EDITOR_STATE": {
+    "allProjectFiles": {
+      "c0953249-5a2c-4733-baa9-272db04aee94": {
+        "id": "c0953249-5a2c-4733-baa9-272db04aee94",
+        "parent": null,
+        "name": "GCPOnly",
+        "type": "DIRECTORY",
+        "isDirectory": true,
+        "children": [
+          "e31db293-6ea5-48ac-bd91-5ce497fdb544"
+        ],
+        "isRemovable": false,
+        "filePath": "GCPOnly"
+      },
+      "e31db293-6ea5-48ac-bd91-5ce497fdb544": {
+        "id": "e31db293-6ea5-48ac-bd91-5ce497fdb544",
+        "parent": "c0953249-5a2c-4733-baa9-272db04aee94",
+        "name": "lambda.js",
+        "type": "LAMBDA_FILE",
+        "isDirectory": false,
+        "children": [],
+        "isRemovable": true,
+        "filePath": "GCPOnly/lambda.js",
+        "code": "exports.handler = function(event, context, callback) {\n    \n    callback(null, {\"message\": \"Successfully executed\"});\n}",
+        "triggers": [],
+        "config": {
+          "runtime": "nodejs8.10",
+          "handler": "handler",
+          "timeout": 60,
+          "memory": 128,
+          "layers": []
+        }
+      }
+    },
+    "deletedFiles": [],
+    "rootNode": "c0953249-5a2c-4733-baa9-272db04aee94",
+    "openFiles": [
+      "e31db293-6ea5-48ac-bd91-5ce497fdb544"
+    ],
+    "currentFileId": "e31db293-6ea5-48ac-bd91-5ce497fdb544",
+    "resources": {},
+    "customTemplate": {
+      "dialect": null,
+      "definitions": {}
+    },
+    "envVariables": [
+      {
+        "lambdaId": "all",
+        "varKey": "SIGMA_AWS_ACC_ID",
+        "varValue": null,
+        "shouldPersist": false,
+        "displayOnly": false,
+        "editable": false
+      }
+    ],
+    "packageJSON": {
+      "dependencies": {}
+    }
+  },
+  "PROJECT_META": {
+    "projectName": "GCPOnly",
+    "projectDescription": "AWS Based project with GCP cred only",
+    "projectVersion": "1.0.0",
+    "projectRegion": "us-east-1",
+    "platform": "AWS",
+    "platformRegions": {},
+    "lastSave": 1554870225660
+  },
+  "VCS_STATE": {
+    "provider": "GitHub",
+    "repo": {
+      "name": "GCPOnly",
+      "url": "https://github.com/Kumudikatest/GCPOnly1"
+    }
+  }
+}
